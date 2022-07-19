@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>占い案内サイト</title>
+    <link rel="icon" href="./favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./style/style.css" />
+    
+  </head>
+  <body ontouchstart>
+    <script type="module" src="./js/theme.mjs"></script>
+    <header>
+      <div>
+        <div style="margin-left: 1em">占い案内サイト</div>
+      </div>
+    </header>
+    <main class="main_contents">
+      <details class="menu" open>
+        <summary>今日の運勢を占ってみよう！</summary>
+        <div class="contents_area">
+          <ul class="links">
+            <li>
+              <a href="./omikuji/index.html"><span>おみくじへ</span> </a>
+            </li>
+            <li>
+              <a href="./seiza/index.html"><span>星座占いへ</span> </a>
+            </li>
+          </ul>
+        </div>
+      </details>
+      <details class="menu">
+        <summary>その他</summary>
+        <div class="contents_area">
+          <ul class="links">
+            <li>
+              <a href="./settings/index.html"><span>設定</span> </a>
+            </li>
+          </ul>
+        </div>
+      </details>
+    </main>
+    <script type="module" src="./js/common.mjs"></script>
+    <script src="./js/home.js"></script>
+  </body>
+</html>

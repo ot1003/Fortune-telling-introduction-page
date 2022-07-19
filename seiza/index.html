@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>星座占い</title>
+    <link rel="icon" href="../favicon/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../favicon/favicon.png"
+      size="72x72"
+    />
+
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body ontouchstart>
+    <script type="module" src="../js/theme.mjs"></script>
+    <header>
+      <div>
+        <button
+          type="button"
+          class="headerBackButton"
+          id="pageback"
+          title="占い案内サイトへもどる"
+        >
+          <span class="material-symbols-rounded"> arrow_back </span>
+        </button>
+        <div>星座占い</div>
+      </div>
+    </header>
+    <main class="main_contents">
+      <details id="seinengappi" open class="menu">
+        <summary>生年月日の入力</summary>
+        <div class="contents_area seinengappi">
+          <form autocomplete="off">
+            <label class="select-wrap">
+              <select id="yearDatalist" autofocus></select
+            ></label>
+            <label class="select-wrap"
+              ><!--selectDisabled-->
+              <select id="monthDatalist" disabled></select
+            ></label>
+            <label class="select-wrap">
+              <select id="dayDatalist" disabled></select
+            ></label>
+          </form>
+          <button type="button" id="uranai_btn" class="outlineButton" disabled>
+            占ってみよう！！
+          </button>
+        </div>
+      </details>
+    </main>
+    <script
+      src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="../js/common.mjs"></script>
+    <script type="module" src="./js/seiza.mjs"></script>
+  </body>
+</html>

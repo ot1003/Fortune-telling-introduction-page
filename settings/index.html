@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>星座占い</title>
+    <link rel="icon" href="../favicon/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../favicon/favicon.png"
+      size="72x72"
+    />
+
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body ontouchstart>
+    <script type="module" src="../js/theme.mjs"></script>
+    <header>
+      <div>
+        <button
+          type="button"
+          class="headerBackButton"
+          id="pageback"
+          title="占い案内サイトへもどる"
+        >
+          <span class="material-symbols-rounded"> arrow_back </span>
+        </button>
+        <div>設定</div>
+      </div>
+    </header>
+    <main class="main_contents">
+      <div id="outputArea" class="contents_area grids">
+        変更したい項目をクリックすると変更できます。これらの設定は再読み時に適用されます。(現時点ではこの画面で生年月日の変更はできません。)
+      </div>
+    </main>
+    <script
+      src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="../js/common.mjs"></script>
+    <script type="module" src="./omikuji.mjs"></script>
+  </body>
+</html>

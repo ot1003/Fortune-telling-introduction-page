@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>おみくじ</title>
+    <link rel="icon" href="../favicon/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../favicon/favicon.png"
+      size="72x72"
+    />
+
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body ontouchstart>
+    <script type="module" src="../js/theme.mjs"></script>
+    <header>
+      <div>
+        <button
+          type="button"
+          class="headerBackButton"
+          id="pageback"
+          title="占い案内サイトへもどる"
+        >
+          <span class="material-symbols-rounded"> arrow_back </span>
+        </button>
+        <div>おみくじ</div>
+      </div>
+    </header>
+    <main class="main_contents">
+      <div id="seinengappi" class="contents_area seinengappi">
+        <button type="button" id="uranai_btn" class="outlineButton">
+          占ってみよう！！
+        </button>
+      </div>
+    </main>
+    <script
+      src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="../js/common.mjs"></script>
+    <script type="module" src="./omikuji.mjs"></script>
+  </body>
+</html>
