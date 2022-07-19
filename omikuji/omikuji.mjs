@@ -1,11 +1,11 @@
-import { createCard } from "../../function/card.mjs";
-import { tables } from "../../function/tables.mjs";
+import { createCard } from "./../function/card.mjs";
+import { tables } from "./../function/tables.mjs";
 
-import { dialogs } from "../../function/dialog.mjs";
+import { dialogs } from "./../function/dialog.mjs";
 
-import { shareImageButton } from "../../function/share/shareImageButton.mjs";
-import { shareSettingButton } from "../../function/share/shareSettingButton.mjs";
-import { imgShares } from "../../function/share/imgShares.mjs";
+import { shareImageButton } from "./../function/share/shareImageButton.mjs";
+import { shareSettingButton } from "./../function/share/shareSettingButton.mjs";
+import { imgShares } from "./../function/share/imgShares.mjs";
 import { omikujis } from "./omikujis.mjs";
 
 const localshareImage = "ot_shareImage_omikuji";
