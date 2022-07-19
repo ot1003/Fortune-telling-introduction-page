@@ -50,13 +50,13 @@ if(!(document.querySelector("#pageback") === null)){
       if (window.history.length >= 2) {
         history.back();
       } else {
-        location.href = "/";
+        location.href = "./../";
       }
     } else {
-      location.href = "/";
+      location.href = "./../";
     }
   } else {
-    location.href = "/";
+    location.href = "./../";
   }
 });
 
