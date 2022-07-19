@@ -1,6 +1,6 @@
-import { createCard } from "./../../function/card.mjs";
-import { tables } from "./../../function/tables.mjs";
-import { dialogs } from "./../function/dialog.mjs";
+import { createCard } from "../function/card.mjs";
+import { tables } from "../function/tables.mjs";
+import { dialogs } from "../function/dialog.mjs";
 const birthday = birthdays();
 const jsonss = [
   {
