@@ -1,6 +1,6 @@
 "use strict";
 
-import { support } from "../../function/support.mjs";
+import { support } from "./../function/support.mjs";
 const supportsContainerQueries = "container" in document.documentElement.style;
 
 if (!supportsContainerQueries) {
